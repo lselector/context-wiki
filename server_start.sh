@@ -4,7 +4,14 @@
 
 cd "$(dirname "$0")"
 
-PYTHON=/Users/levselector/.venvs/standard/bin/python
+# python from the active environment; override with
+# PYTHON=/path/to/python ./server_start.sh
+PYTHON="${PYTHON:-$(command -v python \
+    || command -v python3)}"
+if [ -z "$PYTHON" ]; then
+    echo "No python found in PATH"
+    exit 1
+fi
 PORT=8020
 PIDFILE=.wiki_server.pid
 LOGFILE=wiki_server.log
