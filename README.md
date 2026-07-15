@@ -15,6 +15,6 @@ Notes on how to create and maintain your own knowledge base wiki (context wiki) 
 
 ## Wikis
 
-- [Content-Wiki-SOX/](Content-Wiki-SOX/) — context wiki
+- [Context-Wiki-SOX/](Context-Wiki-SOX/) — context wiki
   about SOX (Sarbanes-Oxley) Audit, structured per
   d3_howto_context_wiki.md.
