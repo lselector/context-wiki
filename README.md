@@ -13,6 +13,16 @@ Notes on how to create and maintain your own knowledge base wiki (context wiki) 
   how to create and maintain your own context wiki: topics →
   raw downloads → Markdown → interlinked OKF files.
 
+- [d4_wiki_tools.md](d4_wiki_tools.md) — Python
+  find / grep / read utilities for the wiki, usable
+  from Python, the command line, Claude Code, or as
+  claude-agent-sdk tools.
+
+## Code
+
+- [wiki_tools.py](wiki_tools.py) — stdlib-only find /
+  grep / read module (see d4_wiki_tools.md).
+
 ## Wikis
 
 - [Context-Wiki-SOX/](Context-Wiki-SOX/) — context wiki

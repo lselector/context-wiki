@@ -6,7 +6,10 @@ Kanban board / task dashboard.
 
 * Define main topics and keywords
   (fill in Topics.md)
-* Download initial source material into Raw/
+* Convert Raw/ documents into Markdown
+  summaries (Wiki/Summaries/)
+* Create OKF concept files and interlink
+  (Wiki/Concepts/, Wiki/Entities/)
 
 ## In Progress
 
@@ -15,3 +18,6 @@ Kanban board / task dashboard.
 ## Done
 
 * Set up wiki directory structure (2026-07-15)
+* Downloaded 28 source documents into Raw/
+  across 5 categories; sources recorded in
+  Raw/sources.md (2026-07-15)
