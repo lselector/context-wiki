@@ -2,3 +2,7 @@ __pycache__/
 *.pyc
 temp/
 **/.DS_Store
+
+# wiki server runtime files
+wiki_server.log
+.wiki_server.pid

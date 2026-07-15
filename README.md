@@ -18,10 +18,20 @@ Notes on how to create and maintain your own knowledge base wiki (context wiki) 
   from Python, the command line, Claude Code, or as
   claude-agent-sdk tools.
 
+- [d5_wiki_server.md](d5_wiki_server.md) — local
+  Wikipedia-style browsing UI for the wiki
+  (`wiki_server.py`, port 8020): navigation, search,
+  infoboxes, backlinks.
+
 ## Code
 
 - [wiki_tools.py](wiki_tools.py) — stdlib-only find /
   grep / read module (see d4_wiki_tools.md).
+- [wiki_server.py](wiki_server.py) — local wiki web
+  server on port 8020 (see d5_wiki_server.md).
+- `server_start.sh` / `server_stop.sh` /
+  `server_restart.sh` — control scripts for the wiki
+  server.
 
 ## Wikis
 
